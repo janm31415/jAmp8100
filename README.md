@@ -34,3 +34,8 @@ To start the payment process you have to run jAmp 8100 in stand-alone mode. A po
 
 Note that you should only pay once to unlock the plugin. In case you have a new device, you can get the plugin unlocked by clicking on "Restore". If you go a second time through the payment system, no worries, Apple will notice this and give you the plugin for free.
 
+![](images/PluginDemo.jpg)
+
+Note that it is not possible to purchase the audio plugin via a host application. If you run jAmp 8100 via for instance GarageBand you will get a message as in the image above. Just start the stand-alone jAmp 8100 application if you want to purchase.
+
+
