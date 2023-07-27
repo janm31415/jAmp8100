@@ -18,4 +18,19 @@ Minimal requirements are:
   - macOS 11.0 or later for desktop / laptop
 
 The jAmp 8100 software is distributed via the Apple App store. Click on the App store badge to go to the download location.
+
 [![](images/AppStore.png)](https://apps.apple.com/us/app/jAmp8100/id000000)
+
+
+## Purchase info
+
+Installation of jAmp 8100 is free, but it will run in DEMO mode. This means that every minute jAmp 8100 will output 3 seconds of silence. This allows the user to test the audio plugin in depth before purchasing it.
+
+Purchasing jAmp 8100 is a straightforward and user-friendly process, following the standard steps from the Apple App Store you're likely familiar with. Once the plugin is unlocked, the DEMO mode will be gone, and you can enjoy the full potential.
+
+![](images/Payment.jpg)
+
+To start the payment process you have to run jAmp 8100 in stand-alone mode. A popup as in the image above should appear. Simply tap or click on "Purchase" and the Apple App Store will guide you through the process.
+
+Note that you should only pay once to unlock the plugin. In case you have a new device, you can get the plugin unlocked by clicking on "Restore". If you go a second time through the payment system, no worries, Apple will notice this and give you the plugin for free.
+
