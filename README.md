@@ -38,4 +38,40 @@ Note that you should only pay once to unlock the plugin. In case you have a new 
 
 Note that it is not possible to purchase the audio plugin via a host application. If you run jAmp 8100 via for instance GarageBand you will get a message as in the image above. Just start the stand-alone jAmp 8100 application if you want to purchase.
 
+## AMP section
 
+![](images/AMP.jpg)
+
+## GATE section
+
+![](images/GATE.jpg)
+
+## OD section
+
+![](images/OD.jpg)
+
+## EQ section
+
+![](images/EQ.jpg)
+
+## OUT EQ section
+
+![](images/OUTEQ.jpg)
+
+## CAB section
+
+![](images/CAB.jpg)
+
+## PED section
+
+![](images/PED.jpg)
+
+## Credits
+
+- [AudioKit Controls](https://github.com/AudioKit/Controls)
+- [Cabinet IRs by forward-audio.com](https://www.forward-audio.com)
+- [Cabinet IRs by Valhallir.at](https://valhallir.at)
+- [DSP Filters by Vinnie Falco](https://github.com/vinniefalco/DSPFilters)
+- [File Picker by Mark Renaud](https://github.com/markrenaud/FilePicker)
+- [Lobster font](https://github.com/impallari/The-Lobster-Font)
+- [SwiftUI animation](https://github.com/KeatoonMask/SwiftUI-Animation)
