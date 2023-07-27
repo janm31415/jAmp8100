@@ -9,3 +9,6 @@ From the classic, warm tones of vintage blues, over the roaring power chords of 
 
 So, strap in, plug in your guitar, and get ready to rock out with the jAmp 8100 – the perfect blend of innovation and tradition for the modern guitarist. Let's dive in and discover the limitless possibilities that await you in this digital realm of sonic excellence. Get ready to inspire, create, and elevate your music to a whole new level!
 
+## System requirements
+
+jAmp 8100 is an AUv3 (Audio Unit version 3) plugin that can be used as a stand-alone application on iOS and macOS, or as an audio plugin inside a host application on iOS and macOS. The jAmp 8100 software is distributed via the Apple App store. Click on the 
