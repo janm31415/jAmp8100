@@ -74,4 +74,5 @@ Note that it is not possible to purchase the audio plugin via a host application
 - [DSP Filters by Vinnie Falco](https://github.com/vinniefalco/DSPFilters)
 - [File Picker by Mark Renaud](https://github.com/markrenaud/FilePicker)
 - [Lobster font](https://github.com/impallari/The-Lobster-Font)
+- [R-Solver](https://github.com/jatinchowdhury18/R-Solver)
 - [SwiftUI animation by Finsi Ennes](https://github.com/KeatoonMask/SwiftUI-Animation)
