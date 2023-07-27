@@ -11,4 +11,11 @@ So, strap in, plug in your guitar, and get ready to rock out with the jAmp 8100 
 
 ## System requirements
 
-jAmp 8100 is an AUv3 (Audio Unit version 3) plugin that can be used as a stand-alone application on iOS and macOS, or as an audio plugin inside a host application on iOS and macOS. The jAmp 8100 software is distributed via the Apple App store. Click on the 
+jAmp 8100 is an AUv3 (Audio Unit version 3) plugin that can be used as a stand-alone application on iOS and macOS, or as an audio plugin inside a host application on iOS and macOS. 
+
+Minimal requirements are:
+  - iOS 14.0 or later for mobile (iPhone or iPad)
+  - macOS 11.0 or later for desktop / laptop
+
+The jAmp 8100 software is distributed via the Apple App store. Click on the App store badge to go to the download location.
+[![](images/AppStore.png)](https://apps.apple.com/us/app/jAmp8100/id000000)
