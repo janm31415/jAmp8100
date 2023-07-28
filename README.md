@@ -218,6 +218,20 @@ Turn the equalizer on or off.
 
 ![](images/CAB.jpg)
 
+This cabinet simulator is designed to bring the immersive world of impulse responses to your digital audio setup. By utilizing convolution technology, the Impulse Response Loader allows you to capture the unique sonic fingerprint of real-world spaces, classic cabinets, or any acoustic environment, and apply them to your audio signals. 
+
+The integrated cabinet impulse responses are provided by [forward-audio.com](https://www.forward-audio.com) and [Valhallir.at](https://valhallir.at). 
+
+It is also possible to load your own impulse responses, which are expected to be in Wave format.
+
+### Load IR
+
+This button will open a file explorer where you can select your own impulse response files in Wave format.
+
+### Fact / USer
+
+This button switches between the integrated impulse responses by [forward-audio.com](https://www.forward-audio.com) and [Valhallir.at](https://valhallir.at), and the user uploaded impulse responses.
+
 ### Foot switch 
 
 Turn the IR loader on or off.
