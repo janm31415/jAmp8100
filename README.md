@@ -98,17 +98,30 @@ The Contour control alters the mid-range frequencies in your guitar tone. Turnin
 
 ##### Volume
 
+Controls the volume of the Boost channel.
+
 #### Master
 
 ##### Reverb
 
+Reverb will add ambience and size to your guitar tone, giving the effect of playing in a large empty room or hall.
+This knob controls the amount of reverb.
+
 ##### Volume
+
+Controls the main output volume.
 
 ##### Cab
 
+Turns on / off the cabinet loader section. When turned off you can add any other custom cabinet loader to your stack of audio plugins to simulate the desired cabinet sound effect.
+
 ##### Power sim
 
+Turns on / off the power amplifier simulation. When turned off the output volume will be louder and you will hear some hard clipping which is less appealing to the ear. This option however allows to add another custom power amplifier to your stack of audio plugins.
+
 ##### Power
+
+Turns on / off the amplifier. Can be useful in case you only want to use some of the pedals.
 
 ### Top row
 
