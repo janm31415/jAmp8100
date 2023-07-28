@@ -190,7 +190,11 @@ Turn the Tube Booster on or off.
 
 ![](images/EQ.jpg)
 
+Our Ten Band Equalizer offers you the ability to shape and customize your sound to perfection. With ten adjustable frequency bands at your fingertips, you can boost or cut specific frequencies to enhance clarity, balance, and depth in your music.
+
 ### Frequency bands
+
+Adjust the boost or cut of the selected band by 12dB.
 
 ### Foot switch 
 
@@ -200,7 +204,11 @@ Turn the 10 band equalizer on or off.
 
 ![](images/OUTEQ.jpg)
 
+This is a five-band post-amp equalizer designed to shape the amplifier's sound before it reaches the cabinet.
+
 ### Frequency bands
+
+Adjust the boost or cut of the selected band by 12dB.
 
 ### Foot switch 
 
