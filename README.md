@@ -142,6 +142,22 @@ Turns on / off the amplifier. Can be useful in case you only want to use some of
 
 ![](images/GATE.jpg)
 
+### Threshold
+
+The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain.
+
+### Attack
+
+The attack control on the noise suppressor governs the speed at which the noise reduction effect disengages once the incoming signal surpasses the threshold level. A shorter attack time means the noise suppressor inactivates quickly, bringing back the input signal almost instantaneously after the threshold is exceeded. On the other hand, a longer attack time introduces a more gradual introduction of the input signal.
+
+### Hold
+
+When the noise suppression is activated (which happens when the incoming audio signal drops below the specified threshold level), the input signal will not be reduced for a given time in milliseconds controlled by the hold knob.
+
+### Release
+
+When the noise suppression is activated (which happens when the incoming audio signal drops below the specified threshold level), the input signal will not be reduced for a given time in milliseconds controlled by the hold knob. After that period, the input signal will start dropping in volume gradually, spread over a given time in milliseconds controlled by the release knob. This will eventually result in a fully eliminated input signal, provided that the input signal never surpasses the specified threshold level in the time period controlled by the hold and release knobs.
+
 ## OD section
 
 ![](images/OD.jpg)
