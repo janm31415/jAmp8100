@@ -42,6 +42,60 @@ Note that it is not possible to purchase the audio plugin via a host application
 
 ![](images/AMP.jpg)
 
+### Front panel features
+
+#### Clean
+
+This controls the volume of the Normal channel.
+
+#### Clean / Crunch 
+
+This button will crunch up your guitar sound for semi-distorted chords. The amount of distortion will be controlled by the Clean control.
+
+#### Bass
+
+The Bass control allows you to shape the low-end frequencies of your guitar's tone. Turn the knob clockwise to increase the bass for added depth and warmth, or counterclockwise to decrease it for a tighter and punchier sound. 
+
+#### Middle
+
+The Middle control enables you to adjust the mid-range frequencies of your guitar's tone. By turning the knob clockwise, you can boost the mids for a fatter sound. Conversely, turning it counterclockwise reduces the mid-range for obtaining a thinner sound.
+
+#### Treble
+
+The Treble control empowers you to shape the high-frequency content of your guitar's sound. When turned clockwise, it boosts the treble, adding brilliance and sparkle to your tone.
+
+#### Channel select
+
+Allows for switching between the Normal and Boost channel.
+
+#### Gain
+
+#### OD1 / OD2
+
+#### Bass
+
+#### Middle
+
+#### Treble
+
+#### Contour
+
+#### Volume
+
+#### Reverb
+
+#### Volume
+
+#### Cab
+
+#### Power sim
+
+#### Power
+
+### Top row
+
+### Bottom row
+
 ## GATE section
 
 ![](images/GATE.jpg)
