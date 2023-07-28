@@ -133,7 +133,9 @@ If you run jAmp 8100 in it's stand-alone format, you will have an icon of a spea
 
 ### Bottom row
 
+Left and right you will see the IN and OUT control knobs. The IN knob controls the volume of the signal that goes in the audio plugin, while the OUT knob controls the volume of the signal that goes out of the audio plugin.
 
+The GATE, OD, EQ, AMP, OUT EQ, CAB, and PED buttons allow you to switch to the corresponding effect.
 
 ## GATE section
 
