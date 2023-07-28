@@ -125,7 +125,15 @@ Turns on / off the amplifier. Can be useful in case you only want to use some of
 
 ### Top row
 
+At the top left you can control the amount of oversampling. Generally, the more oversampling that is used, the better the simulation will be. The default oversampling rate is x4 and the amplifier is tweaked to sound best for this oversampling rate. If you go to a lower oversampling rate (x1 or x2), the plugin will be less demanding for your CPU but the sound quality is less. It is advised to keep the oversampling rate at x4 if your CPU can handle it.
+
+In the middle we have the preset section. There are a bunch of factory settings that you can experiment with. Furthermore, you can also save your own user settings. The icon with the arrow pointing downward will allow you to save your preset. A popup will show up asking you for the name of your user preset. If the suggested name is colored red, it means that you will overwrite an already existing user preset. You can also delete a user preset by tapping or clicking on the icon with the X mark. Note that you cannot delete factory settings.
+
+If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the top right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
+
 ### Bottom row
+
+
 
 ## GATE section
 
