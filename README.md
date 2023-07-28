@@ -160,21 +160,59 @@ When the noise suppression is activated (which happens when the incoming audio s
 
 When the noise suppression is activated (which happens when the incoming audio signal drops below the specified threshold level), the input signal will not be reduced for a given time in milliseconds controlled by the hold knob. After that period, the input signal will start dropping in volume gradually, spread over a given time in milliseconds controlled by the release knob. This will eventually result in a fully eliminated input signal, provided that the input signal never surpasses the specified threshold level in the time period controlled by the hold and release knobs.
 
+### Foot switch
+
+Turn the noise suppression on or off.
+
 ## OD section
 
 ![](images/OD.jpg)
+
+The Tube Booster is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
+
+### Drive
+
+The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
+
+### Tone
+
+Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
+
+### Level
+
+The Level control determines the output volume of the pedal. 
+
+### Foot switch 
+
+Turn the Tube Booster on or off.
 
 ## EQ section
 
 ![](images/EQ.jpg)
 
+### Frequency bands
+
+### Foot switch 
+
+Turn the 10 band equalizer on or off.
+
 ## OUT EQ section
 
 ![](images/OUTEQ.jpg)
 
+### Frequency bands
+
+### Foot switch 
+
+Turn the equalizer on or off.
+
 ## CAB section
 
 ![](images/CAB.jpg)
+
+### Foot switch 
+
+Turn the IR loader on or off.
 
 ## PED section
 
