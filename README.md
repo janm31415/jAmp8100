@@ -142,6 +142,8 @@ Turns on / off the amplifier. Can be useful in case you only want to use some of
 
 ![](images/GATE.jpg)
 
+Designed to elevate your guitar playing experience, this pedal comes equipped with versatile controls to give you unparalleled command over unwanted noise in your signal chain. Tame those pesky hums, buzzes, and hisses while retaining your guitar's natural dynamics and sustain. 
+
 ### Threshold
 
 The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain.
