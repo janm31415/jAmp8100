@@ -242,6 +242,8 @@ Turn the IR loader on or off.
 
 ![](images/PED.jpg)
 
+Just for fun! A simulation of the iconic Marshall footswitch. Tap the Clean / Overdrive switch to toggle between the Normal and Boost channel. When the Boost channel is activated, you can tap the OD1 / OD2 switch to toggle between the two overdrive modes.
+
 ## Credits
 
 - [AudioKit Controls](https://github.com/AudioKit/Controls)
