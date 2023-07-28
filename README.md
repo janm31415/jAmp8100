@@ -224,11 +224,13 @@ The integrated cabinet impulse responses are provided by [forward-audio.com](htt
 
 It is also possible to load your own impulse responses, which are expected to be in Wave format.
 
+You can delete your own uploaded impulse responses, by long pressing/clicking the selection button on the right of the corresponding impulse response. Integrated impulses can not be deleted.
+
 ### Load IR
 
 This button will open a file explorer where you can select your own impulse response files in Wave format.
 
-### Fact / USer
+### Fact / User
 
 This button switches between the integrated impulse responses by [forward-audio.com](https://www.forward-audio.com) and [Valhallir.at](https://valhallir.at), and the user uploaded impulse responses.
 
