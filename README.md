@@ -44,23 +44,25 @@ Note that it is not possible to purchase the audio plugin via a host application
 
 ### Front panel features
 
-#### Clean
+#### Normal channel
+
+##### Clean
 
 This controls the volume of the Normal channel.
 
-#### Clean / Crunch 
+##### Clean / Crunch 
 
 This button will crunch up your guitar sound for semi-distorted chords. The amount of distortion will be controlled by the Clean control.
 
-#### Bass
+##### Bass
 
 The Bass control allows you to shape the low-end frequencies of your guitar's tone. Turn the knob clockwise to increase the bass for added depth and warmth, or counterclockwise to decrease it for a tighter and punchier sound. 
 
-#### Middle
+##### Middle
 
 The Middle control enables you to adjust the mid-range frequencies of your guitar's tone. By turning the knob clockwise, you can boost the mids for a fatter sound. Conversely, turning it counterclockwise reduces the mid-range for obtaining a thinner sound.
 
-#### Treble
+##### Treble
 
 The Treble control empowers you to shape the high-frequency content of your guitar's sound. When turned clockwise, it boosts the treble, adding brilliance and sparkle to your tone.
 
@@ -68,29 +70,45 @@ The Treble control empowers you to shape the high-frequency content of your guit
 
 Allows for switching between the Normal and Boost channel.
 
-#### Gain
+#### Boost channel
 
-#### OD1 / OD2
+##### Gain
 
-#### Bass
+This control governs the input signal from your guitar and the level of gain within the pre-amp while using the Boost channel. Raising the gain enhances the distortion in your guitar sound and, to some degree, boosts the volume. Keeping the gain at a lower level will yield a vintage-style blues crunch, while turning it up will produce higher gain sounds, perfectly suited for classic rock tones.
 
-#### Middle
+##### OD1 / OD2
 
-#### Treble
+Switches between Overdrive 1 and Overdrive 2. Overdrive 2 takes off where Overdrive 1 finishes, boosting the amplication factor even more.
 
-#### Contour
+##### Bass
 
-#### Volume
+The Bass control allows you to shape the low-end frequencies of your guitar's tone. When using a heavily distorted tone, turning the knob clockwise will make the tone darker and heavier.
 
-#### Reverb
+##### Middle
 
-#### Volume
+The Middle control enables you to adjust the mid-range frequencies of your guitar's tone. By turning the knob clockwise, you can boost the mids for a fatter sound. Conversely, turning it counterclockwise reduces the mid-range for obtaining a thinner sound.
 
-#### Cab
+##### Treble
 
-#### Power sim
+The Treble control empowers you to shape the high-frequency content of your guitar's sound. When turned clockwise, it boosts the treble, adding brilliance and sparkle to your tone.
 
-#### Power
+##### Contour
+
+The Contour control alters the mid-range frequencies in your guitar tone. Turning the Contour knob fully clockwise removes most of the middle frequencies, creating a 'thrash' tone when combined with heavy distortion, high Treble, and Bass settings, ideal for aggressive rhythms and fierce leads. On the other hand, turning the Contour knob fully anti-clockwise produces excellent fusion-type tones. Experiment with this control to discover the perfect setting for your style. If unsure, keeping the control at 12 o'clock is a good starting point.
+
+##### Volume
+
+#### Master
+
+##### Reverb
+
+##### Volume
+
+##### Cab
+
+##### Power sim
+
+##### Power
 
 ### Top row
 
