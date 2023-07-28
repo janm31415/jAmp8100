@@ -36,7 +36,7 @@ Note that you should only pay once to unlock the plugin. In case you have a new 
 
 ![](images/PluginDemo.jpg)
 
-Note that it is not possible to purchase the audio plugin via a host application. If you run jAmp 8100 via for instance GarageBand you will get a message as in the image above. Just start the stand-alone jAmp 8100 application if you want to purchase.
+Note that it is not possible to purchase the audio plugin via a third-party host application. If you run jAmp 8100 via for instance GarageBand you will get a message as in the image above. Just start the stand-alone jAmp 8100 application if you want to purchase.
 
 ## AMP section
 
