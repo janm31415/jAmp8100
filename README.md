@@ -19,7 +19,7 @@ Minimal requirements are:
 
 The jAmp 8100 software is distributed via the Apple App store. Click on the App store badge to go to the download location.
 
-[![](images/AppStore.png)](https://apps.apple.com/us/app/jAmp8100/id000000)
+[![](images/AppStore.png)](https://apps.apple.com/app/id6450633716)
 
 
 ## Purchase info
