@@ -244,6 +244,21 @@ Turn the IR loader on or off.
 
 Just for fun! A simulation of the iconic Marshall footswitch. Tap the Clean / Overdrive switch to toggle between the Normal and Boost channel. When the Boost channel is activated, you can tap the OD1 / OD2 switch to toggle between the two overdrive modes.
 
+## Connect your audio interface to iPad/iPhone
+
+You need an audio interface to connect your instrument to your mobile device. Known audio interface brands are for instance [Focusrite](https://focusrite.com) or [IK Multimedia](https://www.ikmultimedia.com/).
+
+For iPad you might want to consider using a USB-C hub with power delivery to avoid draining your battery during your jam session, but this is optional.
+
+Your iPhone however cannot deliver enough power on its own to feed the audio interface, so here an extra adapter is necessary that can
+ 1. connect via lightning port to your iPhone
+ 2. connect to your phone charger with USB
+ 3. connect to your audio interface with USB
+
+If you have a Focusrite Scarlett 2i2 or similar you can use the [lighting to USB 3 camera adapter](https://www.amazon.com/Apple-Lightning-USB3-Camera-Adapter/dp/B01F7KJDIM?crid=YQVDGX9WA1YR&keywords=Lightning+to+USB+3+camera+adapter&qid=1641043307&sprefix=lightning+to+usb+3+camera+adapter,aps,792&sr=8-3&linkCode=sl1&tag=virtuosocentr-20&linkId=57ee7dd06d0e356aee5f53a8c03c9268&language=en_US&ref_=as_li_ss_tl) for this which is easily available in the market.
+
+A good tutorial for connecting your audio interface to iPad/iPhone with power charge can be found [here](https://virtuosocentral.com/how-to-connect-the-focusrite-scarlett-to-iphone-or-ipad/).
+
 ## Credits
 
 - [AudioKit Controls](https://github.com/AudioKit/Controls)
