@@ -50,21 +50,21 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 ### Signal chain row
 
-<img src="images/in.jpg" width="50"/> Control the signal input
+<img src="images/in.jpg" height="50"/> Control the signal input
 
-<img src="images/gate.jpg" width="50"/> Control the noise gate. The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain. If the threshold control is turned down all the way to -70dB, the noise gate is actually switched off.
+<img src="images/gate.jpg" height="50"/> Control the noise gate. The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain. If the threshold control is turned down all the way to -70dB, the noise gate is actually switched off.
 
-<img src="images/preicon.jpg" width="50"/> Go to the pre-amp effect section (compressor, overdrive and chorus)
+<img src="images/preicon.jpg" height="50"/> Go to the pre-amp effect section (compressor, overdrive and chorus)
 
-<img src="images/ampicon.jpg" width="50"/> Go to the amplifier section
+<img src="images/ampicon.jpg" height="50"/> Go to the amplifier section
 
-<img src="images/posticon.jpg" width="50"/> Go to the post-amp effect section (equalizer and chorus)
+<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and chorus)
 
-<img src="images/cabicon.jpg" width="50"/> Go to the cabinet simulation section
+<img src="images/cabicon.jpg" height="50"/> Go to the cabinet simulation section
 
-<img src="images/pedicon.jpg" width="50"/> Go to the pedal
+<img src="images/pedicon.jpg" height="50"/> Go to the pedal
 
-<img src="images/out.jpg" width="50"/> Control the signal output
+<img src="images/out.jpg" height="50"/> Control the signal output
 
 ### Mute button
 If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the bottom right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
