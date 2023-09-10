@@ -160,6 +160,14 @@ Turns on / off the amplifier. Can be useful in case you only want to use some of
 
 ### Compressor
 
+#### Compression
+
+#### Ratio
+
+#### Attack
+
+#### Gain
+
 ### Overdrive
 
 The overdrive pedal is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
@@ -182,6 +190,20 @@ Turn the overdrive pedal on or off.
 
 ### Chorus
 
+The chorus pedal is used to create a swirling, shimmering, and often thicker or "chorused" sound. 
+
+#### Rate
+
+The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
+
+#### Depth
+
+The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
+
+#### Level
+
+The Level knob controls the mix of the chorused sound with the original sound.
+
 ## Post-amp effect section
 
 ![](images/POST.jpg)
@@ -199,6 +221,20 @@ Adjust the boost or cut of the selected band by 12dB.
 Turn the equalizer on or off.
 
 ### Chorus
+
+This pedal is the same as the chorus pedal in the pre-amp effect section. However, by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal.
+
+#### Rate
+
+The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
+
+#### Depth
+
+The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
+
+#### Level
+
+The Level knob controls the mix of the chorused sound with the original sound.
 
 ## CAB section
 
