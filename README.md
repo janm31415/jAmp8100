@@ -176,7 +176,7 @@ The attack time determines how quickly the compressor responds to signals that e
 
 #### Gain
 
-Since compressors reduce the overall volume of the signal, this gain knob allows you to boost the compressed signal to bring it back to an appropriate level.
+Since compressors reduce the overall volume of the signal, this Gain knob allows you to boost the compressed signal to bring it back to an appropriate level.
 
 ### Overdrive
 
