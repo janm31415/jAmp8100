@@ -66,6 +66,9 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 <img src="images/out.jpg" width="50"/> Control the signal output
 
+### Mute button
+If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the bottom right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
+
 ## AMP section
 
 ![](images/AMP.jpg)
@@ -155,37 +158,47 @@ Turns on / off the amplifier. Can be useful in case you only want to use some of
 
 ![](images/PRE.jpg)
 
-The Tube Booster is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
+### Compressor
 
-### Drive
+### Overdrive
+
+The overdrive pedal is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
+
+#### Drive
 
 The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
 
-### Tone
+#### Tone
 
 Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
 
-### Level
+#### Level
 
 The Level control determines the output volume of the pedal. 
 
-### Foot switch 
+#### Foot switch 
 
-Turn the Tube Booster on or off.
+Turn the overdrive pedal on or off.
+
+### Chorus
 
 ## Post-amp effect section
 
 ![](images/POST.jpg)
 
+### Five band equalizer
+
 This is a five-band post-amp equalizer designed to shape the amplifier's sound before it reaches the cabinet.
 
-### Frequency bands
+#### Frequency bands
 
 Adjust the boost or cut of the selected band by 12dB.
 
-### Foot switch 
+#### Foot switch 
 
 Turn the equalizer on or off.
+
+### Chorus
 
 ## CAB section
 
