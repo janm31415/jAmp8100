@@ -50,38 +50,21 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 ### Signal chain row
 
-![](images/in.jpg)
+<img src="images/in.jpg" width="50"/> Control the signal input
 
-Control the signal input
+<img src="images/gate.jpg" width="50"/> Control the noise gate. The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain. If the threshold control is turned down all the way to -70dB, the noise gate is actually switched off.
 
-![](images/gate.jpg)
+<img src="images/preicon.jpg" width="50"/> Go to the pre-amp effect section (compressor, overdrive and chorus)
 
-Control the noise gate. If the knob is turned down all the way to -70dB, the noise gate is actually switched off.
-The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain.
+<img src="images/ampicon.jpg" width="50"/> Go to the amplifier section
 
-![](images/preicon.jpg)
+<img src="images/posticon.jpg" width="50"/> Go to the post-amp effect section (equalizer and chorus)
 
-Go to the pre-amp effect section (compressor, overdrive and chorus)
+<img src="images/cabicon.jpg" width="50"/> Go to the cabinet simulation section
 
-![](images/ampicon.jpg)
+<img src="images/pedicon.jpg" width="50"/> Go to the pedal
 
-Go to the amplifier section
-
-![](images/posticon.jpg)
-
-Go to the post-amp effect section (equalizer and chorus)
-
-![](images/cabicon.jpg)
-
-Go to the cabinet simulation section
-
-![](images/pedicon.jpg)
-
-Go to the pedal
-
-![](images/in.jpg)
-
-Control the signal output
+<img src="images/out.jpg" width="50"/> Control the signal output
 
 ## AMP section
 
