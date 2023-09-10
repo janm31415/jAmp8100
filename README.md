@@ -69,6 +69,66 @@ In the middle we have the preset section. There are a bunch of factory settings 
 ### Mute button
 If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the bottom right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
 
+## Pre amp effect section
+
+![](images/PRE.jpg)
+
+### Compressor
+
+A compressor is used to control and modify the dynamic range of the guitar signal. It essentially helps to even out the variations in volume between the quietest and loudest parts of your playing, resulting in a more consistent and controlled sound. 
+
+#### Compression
+
+The compressor internally has a threshold parameter, which sets the level at which the compressor starts to work. When the incoming signal exceeds the threshold, the compressor activates and begins to reduce the volume of the signal. Signals below the threshold remain unaffected. The compression knob controls the internal threshold parameter. When turned to the left almost no compression occurs, i.e. the internal threshold parameter is set high so that almost all sounds pass unaffected, while turning it to the right will make the internal threshold parameter drop so that compression is activated at lower sound levels.
+
+#### Ratio
+
+The ratio determines how much the compressor reduces the signal above the threshold. For example, a 4:1 ratio means that for every 4 dB (decibels) the input signal goes above the threshold, the compressor will allow only 1 dB to pass through. This is what creates the compression effect.
+
+#### Attack
+
+The attack time determines how quickly the compressor responds to signals that exceed the threshold. The attack time here also acts as the release time, which controls how quickly the compressor stops reducing the volume once the signal falls below the threshold.
+
+#### Gain
+
+Since compressors reduce the overall volume of the signal, this Gain knob allows you to boost the compressed signal to bring it back to an appropriate level.
+
+### Overdrive
+
+The overdrive pedal is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
+
+#### Drive
+
+The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
+
+#### Tone
+
+Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
+
+#### Level
+
+The Level control determines the output volume of the pedal. 
+
+#### Foot switch 
+
+Turn the overdrive pedal on or off.
+
+### Chorus
+
+The chorus pedal is used to create a swirling, shimmering, and often thicker or "chorused" sound. Note that there is also a second chorus pedal in the post-amp effect section.
+
+#### Rate
+
+The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
+
+#### Depth
+
+The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
+
+#### Level
+
+The Level knob controls the mix of the chorused sound with the original sound.
+
 ## AMP section
 
 ![](images/AMP.jpg)
@@ -153,66 +213,6 @@ Turns on / off the power amplifier simulation. When turned off the output volume
 ##### Power
 
 Turns on / off the amplifier. Can be useful in case you only want to use some of the pedals.
-
-## Pre amp effect section
-
-![](images/PRE.jpg)
-
-### Compressor
-
-A compressor is used to control and modify the dynamic range of the guitar signal. It essentially helps to even out the variations in volume between the quietest and loudest parts of your playing, resulting in a more consistent and controlled sound. 
-
-#### Compression
-
-The compressor internally has a threshold parameter, which sets the level at which the compressor starts to work. When the incoming signal exceeds the threshold, the compressor activates and begins to reduce the volume of the signal. Signals below the threshold remain unaffected. The compression knob controls the internal threshold parameter. When turned to the left almost no compression occurs, i.e. the internal threshold parameter is set high so that almost all sounds pass unaffected, while turning it to the right will make the internal threshold parameter drop so that compression is activated at lower sound levels.
-
-#### Ratio
-
-The ratio determines how much the compressor reduces the signal above the threshold. For example, a 4:1 ratio means that for every 4 dB (decibels) the input signal goes above the threshold, the compressor will allow only 1 dB to pass through. This is what creates the compression effect.
-
-#### Attack
-
-The attack time determines how quickly the compressor responds to signals that exceed the threshold. The attack time here also acts as the release time, which controls how quickly the compressor stops reducing the volume once the signal falls below the threshold.
-
-#### Gain
-
-Since compressors reduce the overall volume of the signal, this Gain knob allows you to boost the compressed signal to bring it back to an appropriate level.
-
-### Overdrive
-
-The overdrive pedal is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
-
-#### Drive
-
-The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
-
-#### Tone
-
-Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
-
-#### Level
-
-The Level control determines the output volume of the pedal. 
-
-#### Foot switch 
-
-Turn the overdrive pedal on or off.
-
-### Chorus
-
-The chorus pedal is used to create a swirling, shimmering, and often thicker or "chorused" sound. Note that there is also a second chorus pedal in the post-amp effect section.
-
-#### Rate
-
-The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
-
-#### Depth
-
-The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
-
-#### Level
-
-The Level knob controls the mix of the chorused sound with the original sound.
 
 ## Post-amp effect section
 
