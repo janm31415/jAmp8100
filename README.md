@@ -38,9 +38,9 @@ Note that you should only pay once to unlock the plugin. In case you have a new 
 
 Note that it is not possible to purchase the audio plugin via a third-party host application. If you run jAmp 8100 via for instance GarageBand you will get a message as in the image above. Just start the stand-alone jAmp 8100 application if you want to purchase.
 
-## AMP section
+## Navigation bar
 
-![](images/AMP.jpg)
+The navigation bar at the top of your view consists of two rows. The top row controls the oversampling rate and the preset section. The second row represents the signal chain flow. We can navigate via icons to the different sections (pre-amp effects, amplifier, post-amp effects, cabinet simulation, and pedal), and we can control the input and output level and the noise gate.
 
 ### Top row
 
@@ -48,14 +48,90 @@ At the top left you can control the amount of oversampling. Generally, the more 
 
 In the middle we have the preset section. There are a bunch of factory settings that you can experiment with. Furthermore, you can also save your own user settings. The icon with the arrow pointing downward will allow you to save your preset. A popup will show up asking you for the name of your user preset. If the suggested name is colored red, it means that you will overwrite an already existing user preset. You can also delete a user preset by tapping or clicking on the icon with the X mark. Note that you cannot delete factory settings.
 
-If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the top right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
+### Signal chain row
 
-### Bottom row
+<img src="images/in.jpg" height="50"/> Control the signal input
 
-Left and right you will see the IN and OUT control knobs. The IN knob controls the volume of the signal that goes in the audio plugin, while the OUT knob controls the volume of the signal that goes out of the audio plugin.
+<img src="images/gate.jpg" height="50"/> Control the noise gate. The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain. If the threshold control is turned down all the way to -70dB, the noise gate is actually switched off.
 
-The GATE, OD, EQ, AMP, OUT EQ, CAB, and PED buttons allow you to switch to the corresponding effect.
+<img src="images/preicon.jpg" height="50"/> Go to the pre-amp effect section (compressor, overdrive and chorus)
 
+<img src="images/ampicon.jpg" height="50"/> Go to the amplifier section
+
+<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and chorus)
+
+<img src="images/cabicon.jpg" height="50"/> Go to the cabinet simulation section
+
+<img src="images/pedicon.jpg" height="50"/> Go to the pedal
+
+<img src="images/out.jpg" height="50"/> Control the signal output
+
+### Mute button
+If you run jAmp 8100 in it's stand-alone format, you will have an icon of a speaker on the bottom right. This is your muting button. By default, at startup, the amplifier will be muted to avoid any unwanted feedback. Don't forget to unmute before you start playing.
+
+## Pre amp effect section
+
+![](images/PRE.jpg)
+
+### Compressor
+
+A compressor is used to control and modify the dynamic range of the guitar signal. It essentially helps to even out the variations in volume between the quietest and loudest parts of your playing, resulting in a more consistent and controlled sound. 
+
+#### Compression
+
+The compressor internally has a threshold parameter, which sets the level at which the compressor starts to work. When the incoming signal exceeds the threshold, the compressor activates and begins to reduce the volume of the signal. Signals below the threshold remain unaffected. The compression knob controls the internal threshold parameter. When turned to the left almost no compression occurs, i.e. the internal threshold parameter is set high so that almost all sounds pass unaffected, while turning it to the right will make the internal threshold parameter drop so that compression is activated at lower sound levels.
+
+#### Ratio
+
+The ratio determines how much the compressor reduces the signal above the threshold. For example, a 4:1 ratio means that for every 4 dB (decibels) the input signal goes above the threshold, the compressor will allow only 1 dB to pass through. This is what creates the compression effect.
+
+#### Attack
+
+The attack time determines how quickly the compressor responds to signals that exceed the threshold. The attack time here also acts as the release time, which controls how quickly the compressor stops reducing the volume once the signal falls below the threshold.
+
+#### Gain
+
+Since compressors reduce the overall volume of the signal, this Gain knob allows you to boost the compressed signal to bring it back to an appropriate level.
+
+### Overdrive
+
+The overdrive pedal is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
+
+#### Drive
+
+The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
+
+#### Tone
+
+Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
+
+#### Level
+
+The Level control determines the output volume of the pedal. 
+
+#### Foot switch 
+
+Turn the overdrive pedal on or off.
+
+### Chorus
+
+The chorus pedal is used to create a swirling, shimmering, and often thicker or "chorused" sound. Note that there is also a second chorus pedal in the post-amp effect section.
+
+#### Rate
+
+The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
+
+#### Depth
+
+The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
+
+#### Level
+
+The Level knob controls the mix of the chorused sound with the original sound.
+
+## AMP section
+
+![](images/AMP.jpg)
 
 ### Front panel features
 
@@ -138,81 +214,37 @@ Turns on / off the power amplifier simulation. When turned off the output volume
 
 Turns on / off the amplifier. Can be useful in case you only want to use some of the pedals.
 
-## GATE section
+## Post-amp effect section
 
-![](images/GATE.jpg)
+![](images/POST.jpg)
 
-Designed to elevate your guitar playing experience, this pedal comes equipped with versatile controls to give you unparalleled command over unwanted noise in your signal chain. Tame those pesky hums, buzzes, and hisses while retaining your guitar's natural dynamics and sustain. 
-
-### Threshold
-
-The threshold control determines the level at which the noise suppression effect is activated. When set, the noise suppressor remains inactive until the incoming audio signal drops below the specified threshold level. Once the noise suppressor engages, the input signal will be reduced or eliminated (depending on your chosen settings with the other controls). Adjusting the threshold control allows you to tailor the noise suppression to your specific setup, ensuring a clean and noise-free performance while still preserving your desired guitar tones and sustain.
-
-### Attack
-
-The attack control on the noise suppressor governs the speed at which the noise reduction effect disengages once the incoming signal surpasses the threshold level. A shorter attack time means the noise suppressor inactivates quickly, bringing back the input signal almost instantaneously after the threshold is exceeded. On the other hand, a longer attack time introduces a more gradual introduction of the input signal.
-
-### Hold
-
-When the noise suppression is activated (which happens when the incoming audio signal drops below the specified threshold level), the input signal will not be reduced for a given time in milliseconds controlled by the hold knob.
-
-### Release
-
-When the noise suppression is activated (which happens when the incoming audio signal drops below the specified threshold level), the input signal will not be reduced for a given time in milliseconds controlled by the hold knob. After that period, the input signal will start dropping in volume gradually, spread over a given time in milliseconds controlled by the release knob. This will eventually result in a fully eliminated input signal, provided that the input signal never surpasses the specified threshold level in the time period controlled by the hold and release knobs.
-
-### Foot switch
-
-Turn the noise suppression on or off.
-
-## OD section
-
-![](images/OD.jpg)
-
-The Tube Booster is a digital emulation of the legendary Ibanez Tube Screamer. This pedal is a timeless classic cherished by guitarists across generations for its unparalleled ability to add warmth, smoothness, and that elusive "scream" to your guitar tone.
-
-### Drive
-
-The Drive control determines the amount of overdrive or distortion applied to your guitar signal.
-
-### Tone
-
-Acting as a high-frequency filter, the Tone knob allows you to adjust the brightness or darkness of the sound to suit your preferences and playing style.
-
-### Level
-
-The Level control determines the output volume of the pedal. 
-
-### Foot switch 
-
-Turn the Tube Booster on or off.
-
-## EQ section
-
-![](images/EQ.jpg)
-
-Our Ten Band Equalizer offers you the ability to shape and customize your sound to perfection. With ten adjustable frequency bands at your fingertips, you can boost or cut specific frequencies to enhance clarity, balance, and depth in your music.
-
-### Frequency bands
-
-Adjust the boost or cut of the selected band by 12dB.
-
-### Foot switch 
-
-Turn the 10 band equalizer on or off.
-
-## OUT EQ section
-
-![](images/OUTEQ.jpg)
+### Five band equalizer
 
 This is a five-band post-amp equalizer designed to shape the amplifier's sound before it reaches the cabinet.
 
-### Frequency bands
+#### Frequency bands
 
 Adjust the boost or cut of the selected band by 12dB.
 
-### Foot switch 
+#### Foot switch 
 
 Turn the equalizer on or off.
+
+### Chorus
+
+This pedal is the same as the chorus pedal in the pre-amp effect section. However, by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal.
+
+#### Rate
+
+The Rate control allows you to adjust the tempo of the chorus effect to match the feel and style of the music you're playing. 
+
+#### Depth
+
+The Depth knob controls the intensity or depth of the modulation effect applied to the guitar signal. 
+
+#### Level
+
+The Level knob controls the mix of the chorused sound with the original sound.
 
 ## CAB section
 
