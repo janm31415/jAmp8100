@@ -232,9 +232,9 @@ Adjust the boost or cut of the selected band by 12dB.
 
 Turn the equalizer on or off.
 
-### Chorus
+### Stereo Chorus
 
-This pedal is the same as the chorus pedal in the pre-amp effect section. However, by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal.
+This pedal is similar to the chorus pedal in the pre-amp effect section, but by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal. Furthermore the chorus effect is in stereo which is possible here as we are at the end of the signal chain.
 
 #### Rate
 
@@ -258,7 +258,7 @@ The integrated cabinet impulse responses are provided by [forward-audio.com](htt
 
 It is also possible to load your own impulse responses, which are expected to be in Wave format.
 
-You can delete your own uploaded impulse responses, by long pressing/clicking the selection button on the right of the corresponding impulse response. Integrated impulses can not be deleted.
+You can delete your own uploaded impulse responses by swiping to the left over the corresponding impulse response, or by long pressing/clicking the selection button on the right of the corresponding impulse response. Integrated impulses can not be deleted.
 
 ### Load IR
 
@@ -277,6 +277,12 @@ Turn the IR loader on or off.
 ![](images/PED.jpg)
 
 Just for fun! A simulation of the iconic Marshall footswitch. Tap the Clean / Overdrive switch to toggle between the Normal and Boost channel. When the Boost channel is activated, you can tap the OD1 / OD2 switch to toggle between the two overdrive modes.
+
+On the bottom left there is an icon of a small piano keyboard. When you tap the icon you are redirected to the MIDI learn page.
+
+![](images/MIDI.jpg)
+
+If you have a MIDI foot controller, you can assign MIDI Control Change (CC) messages to specific functionality.
 
 ## Connect your audio interface to iPad/iPhone
 
