@@ -282,7 +282,21 @@ On the bottom left there is an icon of a small piano keyboard. When you tap the 
 
 ![](images/MIDI.jpg)
 
-If you have a MIDI foot controller, you can assign MIDI Control Change (CC) messages to specific functionality.
+If you have a MIDI foot controller, you can assign MIDI Control Change (CC) messages to specific functionality. Tap the corresponding 'Learn' button and then use the desired CC control of your MIDI controller. The app will learn this MIDI control and will assign it to the corresponding function.
+
+The following functions can be controlled by MIDI:
+
+Clean / Overdrive: This corresponds with the left switch of the jAmp 8100 pedal. Turn on / off the overdrive channel with a switch. If the corresponding CC message sends a value < 64, the switch is turned off. If the corresponding CC message sends a value >= 64, the switch is turned on.
+
+OD1 / OD2: This corresponds with the right switch of the jAmp 8100 pedal. Switch between overdrive 1 or overdrive 2. If the corresponding CC message sends a value < 64, the switch is turned off. If the corresponding CC message sends a value >= 64, the switch is turned on.
+
+Preset knob: If the corresponding CC message sends a value < 64, the previous preset is selected. If the corresponding CC message sends a value >= 64, the next preset is selected.
+
+Factory / User: Swap between factory and user presets.  If the corresponding CC message sends a value < 64, the factory presets are activated. If the corresponding CC message sends a value >= 64, the user presets are activated.
+
+Next preset: If the corresponding CC message sends any value, the next preset is selected.
+
+Previous preset: If the corresponding CC message sends any value, the previous preset is selected.
 
 ## Connect your audio interface to iPad/iPhone
 
