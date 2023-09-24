@@ -64,6 +64,8 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 <img src="images/pedicon.jpg" height="50"/> Go to the pedal
 
+<img src="images/stereo.jpg" height="50"/> Add stereo effect by delaying the right channel wrt the left channel (disabled when post amp chorus is active)
+
 <img src="images/out.jpg" height="50"/> Control the signal output
 
 ### Mute button
