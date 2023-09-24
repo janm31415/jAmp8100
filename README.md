@@ -323,3 +323,4 @@ A good tutorial for connecting your audio interface to iPad/iPhone with power ch
 - [Lobster font](https://github.com/impallari/The-Lobster-Font)
 - [R-Solver](https://github.com/jatinchowdhury18/R-Solver)
 - [SwiftUI animation by Finsi Ennes](https://github.com/KeatoonMask/SwiftUI-Animation)
+- [TPCircularBuffer by Michael Tyson](https://github.com/michaeltyson/TPCircularBuffer)
