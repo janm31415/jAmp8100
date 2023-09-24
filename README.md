@@ -58,7 +58,7 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 <img src="images/ampicon.jpg" height="50"/> Go to the amplifier section
 
-<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and chorus)
+<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and stereo chorus)
 
 <img src="images/cabicon.jpg" height="50"/> Go to the cabinet simulation section
 
