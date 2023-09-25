@@ -58,11 +58,13 @@ In the middle we have the preset section. There are a bunch of factory settings 
 
 <img src="images/ampicon.jpg" height="50"/> Go to the amplifier section
 
-<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and chorus)
+<img src="images/posticon.jpg" height="50"/> Go to the post-amp effect section (equalizer and stereo chorus)
 
 <img src="images/cabicon.jpg" height="50"/> Go to the cabinet simulation section
 
 <img src="images/pedicon.jpg" height="50"/> Go to the pedal
+
+<img src="images/stereo.jpg" height="50"/> Add stereo effect by delaying the right channel wrt the left channel (disabled when post amp chorus is active)
 
 <img src="images/out.jpg" height="50"/> Control the signal output
 
@@ -230,9 +232,9 @@ Adjust the boost or cut of the selected band by 12dB.
 
 Turn the equalizer on or off.
 
-### Chorus
+### Stereo Chorus
 
-This pedal is the same as the chorus pedal in the pre-amp effect section. However, by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal.
+This pedal is similar to the chorus pedal in the pre-amp effect section, but by placing this chorus pedal at the end of the signal chain a different effect or feel can be obtained than with the first chorus pedal. Furthermore the chorus effect is in stereo which is possible here as we are at the end of the signal chain.
 
 #### Rate
 
@@ -256,7 +258,7 @@ The integrated cabinet impulse responses are provided by [forward-audio.com](htt
 
 It is also possible to load your own impulse responses, which are expected to be in Wave format.
 
-You can delete your own uploaded impulse responses, by long pressing/clicking the selection button on the right of the corresponding impulse response. Integrated impulses can not be deleted.
+You can delete your own uploaded impulse responses by swiping to the left over the corresponding impulse response, or by long pressing/clicking the selection button on the right of the corresponding impulse response. Integrated impulses can not be deleted.
 
 ### Load IR
 
@@ -275,6 +277,26 @@ Turn the IR loader on or off.
 ![](images/PED.jpg)
 
 Just for fun! A simulation of the iconic Marshall footswitch. Tap the Clean / Overdrive switch to toggle between the Normal and Boost channel. When the Boost channel is activated, you can tap the OD1 / OD2 switch to toggle between the two overdrive modes.
+
+On the bottom left there is an icon of a small piano keyboard. When you tap the icon you are redirected to the MIDI learn page.
+
+![](images/MIDI.jpg)
+
+If you have a MIDI foot controller, you can assign MIDI Control Change (CC) messages to specific functionality. Tap the corresponding 'Learn' button and then use the desired CC control of your MIDI controller. The app will learn this MIDI control and will assign it to the corresponding function.
+
+The following functions can be controlled by MIDI:
+
+Clean / Overdrive: This corresponds with the left switch of the jAmp 8100 pedal. Turn on / off the overdrive channel with a switch. If the corresponding CC message sends a value < 64, the switch is turned off. If the corresponding CC message sends a value >= 64, the switch is turned on.
+
+OD1 / OD2: This corresponds with the right switch of the jAmp 8100 pedal. Switch between overdrive 1 or overdrive 2. If the corresponding CC message sends a value < 64, the switch is turned off. If the corresponding CC message sends a value >= 64, the switch is turned on.
+
+Preset knob: If the corresponding CC message sends a value < 64, the previous preset is selected. If the corresponding CC message sends a value >= 64, the next preset is selected.
+
+Factory / User: Swap between factory and user presets.  If the corresponding CC message sends a value < 64, the factory presets are activated. If the corresponding CC message sends a value >= 64, the user presets are activated.
+
+Next preset: If the corresponding CC message sends any value, the next preset is selected.
+
+Previous preset: If the corresponding CC message sends any value, the previous preset is selected.
 
 ## Connect your audio interface to iPad/iPhone
 
@@ -301,3 +323,4 @@ A good tutorial for connecting your audio interface to iPad/iPhone with power ch
 - [Lobster font](https://github.com/impallari/The-Lobster-Font)
 - [R-Solver](https://github.com/jatinchowdhury18/R-Solver)
 - [SwiftUI animation by Finsi Ennes](https://github.com/KeatoonMask/SwiftUI-Animation)
+- [TPCircularBuffer by Michael Tyson](https://github.com/michaeltyson/TPCircularBuffer)
